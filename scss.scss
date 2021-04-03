@@ -1,0 +1,43 @@
+$bg-primary-color: #112055;
+$bg-primary-lighter-color: lighten($bg-primary-color, 20%);
+$bg-primary-darken-color: darken($bg-primary-color, 20%);
+$bg-secondary-color: #469288;
+$font-color-base: #fff;
+$font-color-second: #000;
+
+.box__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.box-primary {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+  background-color: #112055;
+  color: #fff;
+}
+
+.box-primary-lighter {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+  
+}
+
+.box-primary-darker {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+}
+
+.box-secondary {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+  background-color: #4f9d92;
+  color: #000;
+}
